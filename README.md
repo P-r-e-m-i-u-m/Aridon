@@ -55,6 +55,7 @@ flowchart LR
   Services --> EmailService["Email service"]
   Services --> WebhookHandler["Webhook handler"]
   Middleware --> ServiceMesh["Service mesh"]
+  Services --> FeatureFlags["Feature flags"]
 ```
 
 ## Tech Stack
