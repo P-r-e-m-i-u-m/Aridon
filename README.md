@@ -56,6 +56,7 @@ flowchart LR
   Services --> WebhookHandler["Webhook handler"]
   Middleware --> ServiceMesh["Service mesh"]
   Services --> FeatureFlags["Feature flags"]
+  Express --> LoadBalancer["Load balancer"]
 ```
 
 ## Tech Stack
