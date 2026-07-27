@@ -57,6 +57,7 @@ flowchart LR
   Middleware --> ServiceMesh["Service mesh"]
   Services --> FeatureFlags["Feature flags"]
   Express --> LoadBalancer["Load balancer"]
+  Redis --> SessionStore["Session store"]
 ```
 
 ## Tech Stack
