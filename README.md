@@ -58,6 +58,7 @@ flowchart LR
   Services --> FeatureFlags["Feature flags"]
   Express --> LoadBalancer["Load balancer"]
   Redis --> SessionStore["Session store"]
+  Services --> SmsGateway["SMS gateway"]
 ```
 
 ## Tech Stack
