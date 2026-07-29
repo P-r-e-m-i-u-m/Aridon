@@ -59,6 +59,7 @@ flowchart LR
   Express --> LoadBalancer["Load balancer"]
   Redis --> SessionStore["Session store"]
   Services --> SmsGateway["SMS gateway"]
+  Express --> WebsocketGW["Websocket gateway"]
 ```
 
 ## Tech Stack
