@@ -60,6 +60,7 @@ flowchart LR
   Redis --> SessionStore["Session store"]
   Services --> SmsGateway["SMS gateway"]
   Express --> WebsocketGW["Websocket gateway"]
+  Express --> Gateway["API gateway"]
 ```
 
 ## Tech Stack
