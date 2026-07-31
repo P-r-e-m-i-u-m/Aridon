@@ -61,6 +61,7 @@ flowchart LR
   Services --> SmsGateway["SMS gateway"]
   Express --> WebsocketGW["Websocket gateway"]
   Express --> Gateway["API gateway"]
+  Express --> ConfigServer["Config server"]
 ```
 
 ## Tech Stack
