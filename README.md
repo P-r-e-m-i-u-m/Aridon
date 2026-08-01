@@ -62,6 +62,7 @@ flowchart LR
   Express --> WebsocketGW["Websocket gateway"]
   Express --> Gateway["API gateway"]
   Express --> ConfigServer["Config server"]
+  Middleware --> CircuitBreaker["Circuit breaker"]
 ```
 
 ## Tech Stack
