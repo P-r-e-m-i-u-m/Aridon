@@ -63,6 +63,7 @@ flowchart LR
   Express --> Gateway["API gateway"]
   Express --> ConfigServer["Config server"]
   Middleware --> CircuitBreaker["Circuit breaker"]
+  Actions --> Metrics["Metrics exporter"]
 ```
 
 ## Tech Stack
