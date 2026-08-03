@@ -64,6 +64,7 @@ flowchart LR
   Express --> ConfigServer["Config server"]
   Middleware --> CircuitBreaker["Circuit breaker"]
   Actions --> Metrics["Metrics exporter"]
+  Middleware --> HealthCheck["Health check"]
 ```
 
 ## Tech Stack
