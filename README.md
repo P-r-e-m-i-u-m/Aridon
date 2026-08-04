@@ -65,6 +65,7 @@ flowchart LR
   Middleware --> CircuitBreaker["Circuit breaker"]
   Actions --> Metrics["Metrics exporter"]
   Middleware --> HealthCheck["Health check"]
+  Queue --> DeadLetterRetry["Dead letter retry"]
 ```
 
 ## Tech Stack
