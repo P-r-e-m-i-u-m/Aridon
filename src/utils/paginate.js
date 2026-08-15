@@ -9,5 +9,5 @@ const decodeCursor = (cursor) => {
   return JSON.parse(Buffer.from(cursor, "base64").toString("utf8"));
 };
 
-module.exports = { encodeCursor, decodeCursor };  // Updated: 2026-08-05
-// build: 1785934244
+module.exports = { encodeCursor, decodeCursor };  // Updated: 2026-08-15
+// build: 1786792704
