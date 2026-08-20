@@ -11,4 +11,4 @@ async def fetch_with_retry(url: str, retries: int = 3) -> dict:
             if attempt == retries - 1:
                 raise e
             await asyncio.sleep(2 ** attempt)
-# updated: 2026-08-13 build: 1786614818
+# updated: 2026-08-20 build: 1787217834
